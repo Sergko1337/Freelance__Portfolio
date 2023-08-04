@@ -1,0 +1,62 @@
+
+@font-face {
+  font-family:"NeueHaasUnica-Bold", sans-serif ;
+  src: url(../fonts/NeueHaasUnica-Bold.woff2);
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family:"NeueHaasUnica-Regular", sans-serif ;
+  src: url(../fonts/NeueHaasUnica-Regular.woff2);
+  font-weight: 400;
+}
+
+html,
+body{
+  font-size: 16px;
+  height: 100%;
+  letter-spacing: -0.5px;
+  background-color: rgb(255, 255, 255);
+  font-family: "NeueHaasUnica", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #111827;
+}
+
+
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+.main{
+  flex-grow: 1;
+}
+
+
+
+.footer{
+  flex: 0 0 auto;
+}
+
+
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+a{
+  line-height: 27px;
+}
+
+
+
+
